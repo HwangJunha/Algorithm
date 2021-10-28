@@ -1,4 +1,4 @@
-package programmers.java.level1.skill;
+package programmers.level1.skill;
 
 import java.util.Arrays;
 

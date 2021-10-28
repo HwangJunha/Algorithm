@@ -1,5 +1,5 @@
 //https://programmers.co.kr/learn/courses/30/lessons/42586
-package programmers.java.level2;
+package programmers.level2;
 import java.util.ArrayList;
 public class FunctionDevelopment {
 	 public int[] solution(int[] progresses, int[] speeds) {
