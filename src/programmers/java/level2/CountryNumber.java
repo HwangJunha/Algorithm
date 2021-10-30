@@ -1,5 +1,5 @@
 //https://programmers.co.kr/learn/courses/30/lessons/12899
-package programmers.level2;
+package programmers.java.level2;
 
 public class CountryNumber {
 	public String solution(int n) {

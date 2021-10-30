@@ -1,4 +1,4 @@
-package programmers.level1.skill;
+package programmers.java.level1.skill;
 
 public class Soultion1 {
 	public int[][] solution(int[][] arr1, int[][] arr2) {

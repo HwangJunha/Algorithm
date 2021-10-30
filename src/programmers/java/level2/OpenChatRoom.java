@@ -1,6 +1,6 @@
 //https://programmers.co.kr/learn/courses/30/lessons/42888
 //오픈채팅방
-package programmers.level2;
+package programmers.java.level2;
 
 import java.util.*;
 
