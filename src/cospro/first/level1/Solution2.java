@@ -3,7 +3,8 @@ package cospro.first.level1;
 
 class Solution2 {
 	int[][] pane; //판
-	//상 하 좌 우
+	//소용돌이로 돌기 위한 값
+	// k=0 오른쪽 k=1 아래 k=2 왼쪽 k=3 위쪽
 	int dx[] = {1, 0, -1, 0};
 	int dy[] = {0, 1, 0, -1}; 
 	boolean inRange(int i, int j, int n){ // 판에서 벗어 날 경우 false 판 안일경우 true
@@ -24,8 +25,8 @@ class Solution2 {
                     int nj = cj + dx[k];
                     
                     if(!inRange(ni, nj, n) || pane[ni][nj] != 0){
-                        ci += dy[(k + 1) % 4];
-                        cj += dx[(k + 1) % 4];
+                        ci += dy[(k + 1) % 4]; 
+                        cj += dx[(k + 1) % 4]; 
                         break;
                     }
                     ci = ni;
